@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#home" class="logo">Hafiz <span>Hamdard</span></a></li>
+            <li class="hideOnMobile"><a href="#home" class="active" >Home</a></li>
+            <li class="hideOnMobile"><a href="#about">About</a></li>
+            <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#ffff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+</header>
+
+   <section class="home" id="home">
+    <div class="home-content">
+        <h1>Greetings, it's <span>Hafiz</span></h1>
+        <p><strong>Pronunciation:</strong> <em>(ha-FEEZ)</em></p>
+        
+        <h3 class="text-animation">
+            I'm a <span> </span>
+        </h3>
+        <p> I am a passionate in frontend and backend technologies. 
+            I enjoy creating interactive and user-friendly websites that leave a lasting impression.
+        </p>
+            
+        <div class="social-icon">
+            <a href="https://www.linkedin.com/in/hafiz-hamdard-3a9821210/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/hafizullah1991"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/ca.hafiz/"><i class="bx bxl-instagram"></i></a>
+           
+        </div>
+        <a href="./Hafiz Resume.pdf" class="btn">Download Resume
+        </a>
+       
+    </div> 
+    <div class="home-img">
+            <img src="./photo-removebg-preview.png" alt="Hafiz Hamdard Image">
+        </div>
+   </section>
+
+
+   <!-- About me  -->
+
+<section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+    <div class="about-content">
+        <div class="intro">
+          
+            <p>Dedicated software developer graduated from TrueCoders Bootcamp, with a passion for coding and continuous learning. I specialize in crafting elegant solutions to complex problems and thrive in collaborative environments where creativity and innovation flourish.<br>
+                I'm not afraid to make mistakes, because I learn from my mistakes.
+                I am currently focused on enhancing my skills by learning the React frontend framework.<br>
+                In addition to programming, I have a love for languages and am fluent in five human languages, which helps me connect with diverse teams and clients.
+             </p>
+        </div>
+       
+        <div class="skills">
+            <h3>Skills and Expertise</h3>
+            <ul>
+                <li> <img src="./icons/c-sharp.png" alt=""> C#</li>
+                <li> <img src="./icons/web.png" alt=""> ASP.NET MVC Framework</li>
+                <li> <img src="./icons/js.png" alt=""> JavaScript </li>
+                <li> <img src="./icons/html-5.png" alt=""> HTML5 </li>
+                <li> <img src="./icons/css-3.png" alt=""> CSS3 </li>
+                <li> <img src="./icons/sql-server (1).png" alt=""> SQL Database</li>
+                <li> <img src="./icons/github.png" alt=""> Version Control (Git) & GitHub</li>
+                <li> <img src="./icons/problem-solving-skills.png" alt=""> Problem-solving</li>
+                
+            </ul>
+        </div>
+       
+    </div>
+</section>
+<!-- project section -->
+
+<section class="projects" id="projects">
+    <h2 class="heading">Projects</h2>
+    <div class="projects-container">
+        <div class="projects-box">
+         
+            <div class="projects-info">
+                <h4> DRUM KIT</h4>
+                <p>Enjoy playing drum sounds instantly by clicking buttons or pressing keys, with visually appealing animations.</p>
+                <p>Using HTML, CSS and JavaScript</p>
+                <a href="https://gleeful-taffy-7a6947.netlify.app/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="projects-box">
+          
+            <div class="projects-info">
+                <h4> CALCULATOR  </h4>
+               <P>Developed a simple yet functional calculator for basic arithmetic operations.</P>
+                <p>Using HTML, CSS and JavaScript</p>
+                <a href="https://unique-beignet-12a872.netlify.app/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="projects-box">
+          
+            <div class="projects-info">
+                <h4> Random Password Generator </h4>
+                <p>Developed a dynamic random password generator with customizable length and character options, improving security and user control.</p>
+                <p>Using HTML, CSS and JavaScript</p>
+                <a href="https://polite-mochi-164494.netlify.app/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="projects-box">
+          
+            <div class="projects-info">
+                <h4>Dice Roll Game</h4>
+                <p>Developed an interactive game that generates random dice rolls, determines the winner, and provides instant feedback.</p>
+                <p>Using HTML, CSS, and JavaScript</p>
+                <a href="https://66c385ef6034910b73d4ede6--incredible-eclair-e95757.netlify.app/" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="projects-box">
+          
+            <div class="projects-info">
+                <h4> Employee Management System</h4>
+                <p>Using MVC ASP.net, C#, HTML, CSS and SQL</p>
+                <a href="https://github.com/hafizullah1991/Final-project" class="btn">View Project</a>
+            </div>
+        </div> 
+
+        <div class="projects-box">
+           
+            <div class="projects-info">
+                <h4>Best Buy Mock Database</h4>
+                <p>Created an ASP.NET MVC project to simulate an inventory management system with employee sales records. Focused on CRUD operations.</p>
+                <a href="https://github.com/hafizullah1991/ASP.NET-Bestbuy" class="btn">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="input-box">
+            <input type="hidden" name="access_key" value="e052d21f-aed0-4567-940c-4651a23c917b">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+
+        <div class="input-box">
+            <input type="number" name="PhoneNo" placeholder="Phone Number">
+            <input type="text" name="subject" placeholder="subject" required>
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+   </section>
+
+   <footer class="social">
+    <div class="social-icon">
+        <a href="https://www.linkedin.com/in/hafiz-hamdard-3a9821210/"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/hafizullah1991"><i class="bx bxl-github"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+       
+    </div>
+    <hr class="custom-hr">    
+    <ul class="list">
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+       
+    </ul>
+   </footer>
+
+   <script src="script.js"></script>
+   </body>
