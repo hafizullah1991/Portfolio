@@ -142,6 +142,16 @@ span{
     font-weight: 500;
 
 }
+.expertise{
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    padding: 20px;
+}
+.expertise img{
+    width: 46px;
+    border-radius: 10px;
+}
 .social-icon a{
     display: inline-flex;
     justify-content: center;
@@ -226,14 +236,23 @@ span{
     font-weight: 400;
 }
 
-
-.skills li {
-    margin-bottom: 1rem;
+.skills ul{
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.skills li {
+    width: 23%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
 }
 
 .skills img{
+    width: 50px;
     border-radius: 10px;
     vertical-align:middle;
     margin-right: 10px;
