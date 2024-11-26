@@ -93,7 +93,7 @@ nav li:first-child{
 }
 
 section{
-    min-height: 100vh;
+   
     padding: 3rem 12%;
 
 }
@@ -138,17 +138,18 @@ span{
                 0 0 100px var(--main-color);
 }
 .home-content p{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
 
 }
+
 .expertise{
     display: flex;
     justify-content: center;
     gap: 15px; 
     padding: 20px;
 }
-.expertise img{
+.expertise img {
     width: 46px;
     border-radius: 10px;
 }
@@ -320,10 +321,23 @@ span{
     color: var(--main-color);
     font-weight: 800;
 }
-.projects-info p{
-    font-size: 1.6rem ;
+.projects-info{
+     font-size: 1.6rem ;
     margin: 0.3rem 0 1rem;
-    color: var(--main-color);
+    color: var(--main-color); 
+   
+    
+}
+.projectImage img{
+    width: 40px;
+    border-radius: 20px; 
+    padding: 2px;
+}
+.projectImage{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -370,7 +384,7 @@ span{
    display: flex;
    text-align: center;
    justify-content: center;
-   padding: 12px;
+   padding: 10px;
    
 }
 .list li{
